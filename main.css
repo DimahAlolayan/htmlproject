@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=El+Messiri|Livvic&display=swap');
+
+body{
+   
+  background-image: url("background1.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size:cover; /* Resize the background image to cover the entire container */
+    font-family: 'Livvic', sans-serif;
+
+}
+#welcomeArabic {
+    text-shadow: 3px 3px #cebbb6;
+    color: black;
+    text-align: center;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 70px;
+}
+.welcomeBackground{
+color: azure;
+}
+#welcome{
+    text-shadow: 3px 3px #cac1bf;
+    color: black;
+    text-align: center;
+    font-family: 'Livvic', sans-serif;
+    font-size: 70px;
+
+}
+.AboutMe {
+    
+    box-sizing: border-box; 
+    text-align: center;
+    font-family: 'Livvic', sans-serif;
+}
+
+.arabic {
+    font-family: 'El Messiri', sans-serif;
+    text-align: center;
+}
+
+#aboutmeAlgin {
+    text-shadow: 2px 2px #cac1bf;
+    text-align: center;
+    font-size: 50px;
+}
+
+.unitAndOutcome{
+    text-shadow: 2px 2px #cac1bf;
+    text-align: center;
+
+}
+h3{
+    color: maroon;
+    text-align: center;
+
+}
+
+.paragraph {
+    box-sizing: border-box;
+    margin-left: 150px;
+}
