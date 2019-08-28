@@ -1,11 +1,37 @@
 @import url('https://fonts.googleapis.com/css?family=El+Messiri|Livvic&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    padding: 30px 10%;
+}
+.containers{
+    list-style: none;
+}
+.containers li{
+        display: inline-block;
+padding: 0px 20px;
+}
+
+.containers li a {
+    transition: all 0.3s ease 0s;
+}
+
+.containers li a:hover {
+   background : #cebbb6;
+}
 
 body{
-   
+   justify-content: center;
+   align-items: center;
   background-image: url("background1.jpg");
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size:cover; /* Resize the background image to cover the entire container */
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size:cover; 
     font-family: 'Livvic', sans-serif;
 
 }
@@ -25,10 +51,11 @@ color: azure;
     text-align: center;
     font-family: 'Livvic', sans-serif;
     font-size: 70px;
+    margin-bottom: 50px;
 
 }
 .AboutMe {
-    
+    display: flex;
     box-sizing: border-box; 
     text-align: center;
     font-family: 'Livvic', sans-serif;
@@ -38,11 +65,18 @@ color: azure;
     font-family: 'El Messiri', sans-serif;
     text-align: center;
 }
-
+#name{
+    color: maroon;
+    text-align: center;
+    font-size: 40px;
+}
 #aboutmeAlgin {
+    overflow: hidden;
     text-shadow: 2px 2px #cac1bf;
     text-align: center;
     font-size: 50px;
+    margin-top: 20px;
+    margin-bottom:25px ;
 }
 
 .unitAndOutcome{
@@ -59,4 +93,28 @@ h3{
 .paragraph {
     box-sizing: border-box;
     margin-left: 150px;
+}
+.paragraphA {
+    box-sizing: border-box;
+    margin-left: 300px;
+margin-top: 50px;
+}
+.border{
+    display: block;
+    margin: auto;
+    width: 180px;
+    height: 3px;
+    background: #9e4e3c;
+    margin-bottom: 40px;
+}
+.img-wrap{
+    width: 50%;
+}
+.img-wrap img{
+margin-left: -100px;
+    width: 50%;
+    padding:10px;
+border-radius: 50%;
+box-shadow: 0 0 10px #999999
+
 }
